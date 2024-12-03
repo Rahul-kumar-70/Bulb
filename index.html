@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div>
+            <button onclick="clickOnn()">ON</button>
+            <img src="off.png" id="image" height="350px" width="300px">
+            <button onclick="clickOff()">OF</button>
+        </div>
+    </center>
+    
+    <script>
+        function clickOnn() {
+            var img = document.getElementById('image'); 
+            img.src = 'onn.png';  
+        }
+    
+        function clickOff() {
+            var img = document.getElementById('image');  
+            img.src = 'off.png';  
+        }
+    </script>
+    
+</body>
+</html>
